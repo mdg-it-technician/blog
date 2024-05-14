@@ -9,7 +9,6 @@
 
 # Jitsi Installtion Tutorial
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
 
 </header>
 Self-Hosting Guide - Debian/Ubuntu server
@@ -274,3 +273,6 @@ sudo apt install jigasi
 During the installation, you will be asked to enter your SIP account and password. This account will be used to invite the other SIP participants.
 Reload Jitsi Meet
 Launch again a browser with the Jitsi Meet URL and you'll see a telephone icon on the right end of the toolbar. Use it to invite SIP accounts to join the current conference
+
+Uninstall -
+sudo apt purge jigasi jitsi-meet jitsi-meet-web-config jitsi-meet-prosody jitsi-meet-turnserver jitsi-meet-web jicofo jitsi-videobridge2
